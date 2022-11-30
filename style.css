@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    scrollbar-width: thin;
+}
+body{
+    background: rgb(163, 162, 156);
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 550px;
+  
+    
+}
+#Id{
+    border:solid 2px black;
+    border-radius: 15px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    padding: 10px;
+    height: 13px;
+    width: 120px;
+    margin-bottom: 3px;
+    
+}
+#Id:focus{
+    outline: 0;
+}
+#displayMgs{
+
+    background-color: white;
+    border:solid 2px black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 2px;
+    height: 200px;
+    width: 310px;
+
+     /*Modificando scrollbar*/
+     flex-wrap: nowrap; 
+     resize: none;
+     box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+     overflow-y: scroll;
+     scrollbar-color: rgb(187, 186, 186) transparent;
+}
+#Imgs{
+      border-bottom: black solid 2px;
+      width: 75px;
+      margin-bottom: 5px;
+      
+}
+#User{
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 3px;
+    width: 50px;
+    overflow: hidden;
+    text-overflow: unset;
+    height: 18px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.486); 
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+#Mgu{
+    border: solid black 2px;
+    padding-left: 3px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    width: 60%;
+
+}
+
+
+#mgs{
+    border:solid 2px black;
+    border-radius: 15px;
+    padding-left: 5px;
+    height: 32px;
+    width: 250px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+}
+#mgs:hover{
+    box-shadow: inset 0 0 6px rgba(255, 102, 102, 0.767)
+  
+}
+#mgs:focus{
+    outline: 0;
+}
+#Bt{
+    background-color: rgb(255, 255, 255);
+    border:solid 2px black;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 20px;
+    height: 35px;
+    width: 58px;
+    margin-top: 2px;   
+}
+#Bt:hover{
+    background-color: rgb(182, 182, 182);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
